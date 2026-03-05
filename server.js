@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 
-const userModel = require('./usermodel');
+const userModel = require('./userModel');
 
 
 app.get('/', (req, res) => {
